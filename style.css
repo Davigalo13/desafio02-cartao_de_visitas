@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
 	background-color: hsl(47, 88%, 63%);
@@ -13,7 +13,7 @@ main {
 	transform: translate(-50%, -50%);
 }
 
-#bloco {
+.bloco {
 	width: 320px;
 	padding: 24px;
 	text-align: center;
@@ -23,12 +23,12 @@ main {
 	box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
 }
 
-#capa {
+.capa {
 	width: 100%;
 	border-radius: 10px;
 }
 
-#bloco h1 {
+.bloco h1 {
 	font-size: 16px;
 	font-weight: 800;
 	background-color: hsl(47, 88%, 63%);
@@ -37,37 +37,37 @@ main {
 	float: left;
 }
 
-#bloco p {
+.bloco p {
 	clear: both;
 	text-align: left;
 	font-size: 16px;
 	font-weight: 500;
 }
 
-#bloco h2 {
+.bloco h2 {
 	font-weight: 800;
 	color: hsl(47, 88%, 63%);
 	text-align: left;
 }
 
-#autor {
+.autor {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 	margin-top: 15px;
 }
 
-#autor h3 {
+.autor h3 {
 	margin: 0;
 	font-weight: 800;
 	text-align: left;
 }
 
-#icone {
-	width: 10%;
+.icone {
+	width: 32px;
 }
 
-#descricao {
+.descricao {
 	color: hsl(0, 0%, 42%);
 }
 
